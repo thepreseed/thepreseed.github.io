@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/epicslider.css" />
+<link rel="stylesheet" type="text/css" href="css/udt_shortcodes.css" />
+<link rel="stylesheet" type="text/css" href="css/udt_media_queries.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
+<title>Preseed</title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-touch-swipe-1.0.js"></script>
+<script type="text/javascript" src="js/jquery.epicslider.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery.ajaxloading.js"></script>
+<script type="text/javascript" src="js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>   
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/onepage.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+
+
+<script type="text/javascript">
+
+			var isMobile = false;
+	
+			if( navigator.userAgent.match(/Android/i) || 
+				navigator.userAgent.match(/webOS/i) ||
+				navigator.userAgent.match(/iPhone/i) || 
+				navigator.userAgent.match(/iPad/i)|| 
+				navigator.userAgent.match(/iPod/i) || 
+				navigator.userAgent.match(/BlackBerry/i)){
+								
+					isMobile = true;
+							
+			}
+		
+			$(window).load(function() {
+			
+				//call slider
+				$('.epicSlider').epicSlider({
+				
+					loop : false,									//Boolean: whether slideshow should loop or not	
+					slideShow: true,								//Boolean: use slideshow or not
+					autoPlay: true,								//Boolean: autoplay uplon load or not
+					slideShowInterval :4000,						//Integer: slideshow cycling speed, in milliseconds
+					transitionSpeed : 1000,							//Integer: transitions speed, in milliseconds
+					startSlide : 0,									//Integer: starts at 0
+					shuffleSlides:false,							//Boolean: shuffle slides or not
+					easing : 'easeInOutQuint', 						//String: easing method - see http://jqueryui.com/demos/effect/easing.html
+					fx : 'leftToRight',								//String: none, fade, leftToRight, topToBottom 
+					fxmobile : 'leftToRight',						//String: mobile effect -  none, fade, leftToRight, topToBottom 
+					pattern :true									//Boolean: add pattern or not
+
+				});	
+				
+				
+			});
+</script>
+
+</head>
+
+<body>
+<!--start wrapper-->
+<div id="wrapper">
+
+	<!--start header-->
+    <div class="header header-main">
+      <div class="inner">
+            <div class="logo-container">
+                 <div class="logo">
+                     <a class="navigateTo" href="#homepage"><img src="images/logo.png" title="Home" alt=""/></a>                    
+                 </div>
+           </div>
+            
+         <!--mobileMenu toggle-->
+         <div class="mobileMenuToggle"><a href="#"></a></div>
+            
+         <!--navigation-->
+         <ul class="navigation">
+         	<li><a class="navigateTo" href="#homepage">Home</a></li>
+            <li><a class="navigateTo" href="#about">We Do</a></li>
+                        <li><a class="navigateTo" href="#weare">We Are</a></li>
+
+            <li><a class="navigateTo" href="#medianet">Media Network</a></li>
+            <li><a class="navigateTo" href="blog.html">Blog</a></li>
+            <li><a class="navigateTo" href="#contact">Contact</a></li>
+
+         </ul>
+        </div>
+    </div>
+    <!--end header--> 
+      
+	<!--start homepage-->
+    <div id="homepage" class="homepage section">
+    
+        <!--start slider-->
+        <div id="epicSlider1" class="epicSlider theme-default slider-wrapper">
+                <div id="slides">
+                	<img src="images/gallery/1.jpg" alt="Image 1" title="#html-content1" />
+                	                    <img src="images/gallery/openhack.jpg" alt="Image 2" title="#html-content3"/>
+
+                <!--
+    <img src="images/gallery/3.jpg" alt="Image 1" title="#html-content2" />
+                    <img src="images/gallery/2.jpg" alt="Image 3" title="#html-content4"/>                 
+-->
+                 </div>
+                 
+                 <!--graphic logo-->
+                 <div class="epic-graphic logo-homepage" id="html-content1">
+                    <a class="navigateTo" href="#about"></a>
+                 </div>
+                 
+                 <!--caption 1-->
+                  <div class="epic-caption bottomRight epic-impact" id="html-content2">
+                     <h3 class="variation"><span>WELCOME TO</span></h3>
+                     <h1><span>EGO CREATIVE STUDIO</span></h1>
+                     <a class="navigateTo" href="#about"><span>Discover the Agency</span></a>                 
+                   </div>
+                 
+                  <!--caption 2-->
+                  <div class="epic-caption centered epic-impact-2" id="html-content3">
+                 	 <div>
+                    	 <h3><span>WE EDUCATE | INSPIRE | CO-BUILD</span><br/>EARLY STAGE STARTUPS<br/><a class="navigateTo" href="#about"><strong class="darkGray">DISCOVER HOW</strong></a></h3>
+            		</div>
+                 </div>
+                 
+                  <!--caption 3-->
+                  <div class="epic-caption bottomRight descrete" id="html-content4">
+                  <div>
+                  	 <h3>Photo<span>shoot</span> VOGUE NY</h3>
+                     <h5>21ST <span>AUG</span>2012</h5>
+                     <p>Add a nice brief caption here that explains a slide in more detail. You can even add a nice little link<br/> 
+                     <a class="navigateTo" href="#contact">Click here</a></p>
+                   </div>
+                 </div>
+            </div>
+          <!--end slider-->
+      </div>
+	 <!--end homepage-->
+      
+     
+     <!--start page 1-->
+     <div id="about" class="page odd section" title="About Us">
+ 
+        <!--start p1 content-->
+        <div class="content clearfix">
+        
+        	 <!--section title-->
+            <div class="section-title">
+          		 <h3>WE <span>DO</span></h3>
+          		 
+                 <h6><span>We engage with people over progressive ideas, opportunities or mere dreams, to help them build those dots into something more meaningful.</span></h5>
+                 <p>.</p>
+               
+            </div>
+      		<!--end section title-->
+            
+            <div class="column_one_third team">
+            	<div class="round-thumb-container">
+                    <div class="round-thumb">
+                    	<span>
+                    	
+                             <img class="lazy" src="images/gallery/bulb.jpg" alt=""/>    
+                                 
+                         </span>                             
+                    </div>
+              </div>
+                <h5>Startup <span>Lab</span></h5>
+            	<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie!</p>
+             <!--social networks-->
+            <ul class="socialSmall even">
+        
+                <li><a class="facebook" href="http://www.facebook.com/media/set/?set=a.404553806250586.85402.175348422504460&type=1&l=324a5009e4" title="Learn More" target="_blank"></a></li>
+            </ul>
+            </div>
+            <div class="column_one_third team  ">
+                <div class="round-thumb-container">
+                    <div class="round-thumb">
+                     	 <span>
+                             <img class="lazy" src="images/gallery/mit.jpg" alt=""/>                         
+                         </span>                    
+                    </div>
+              </div>
+                <h5>E-Cell <span>Activation</span></h5>
+            	<p>Initiatives through which we will educate and activate E-cells pan India to spread awareness about the contemporary ways of building upon a viable idea in India.</p>
+                 <!--social networks-->
+            <ul class="socialSmall even">
+                <li><a class="facebook" title="Learn More" href="http://www.facebook.com/media/set/?set=a.426367597402540.90419.175348422504460&type=1&l=4481e7cb6a" target="_blank"></a></li>
+            </ul>	
+            </div>
+            
+            <div class="column_one_third last team clearfix">
+            	<div class="round-thumb-container">
+                    <div class="round-thumb">
+                    	<span>
+                             <img class="lazy" src="images/gallery/weblab.png" alt=""/>                         
+                         </span>                             
+                    </div>
+              </div>
+                <h5>Web <span>Lab</span></h5>
+            	<p><strong>Preseed Web Lab</strong> is an experiment to churn out high impact web products. We work on simple ideas which are high impact by nature.</p>
+             <!--social networks-->
+            <ul class="socialSmall even">
+        
+                <li><a class="facebook" href="http://weblab.preseed.in" title="Learn More"></a></li>
+            </ul>
+            </div>
+
+
+          
+                        <a style="text-align:center;" class="submit submitTheme" href="folio/project-6.html" target="_blank">Apply Here</a>
+                        </div>
+
+            <div class="clearfix"></div>
+            <div class="divider"></div>
+            
+            
+            
+            <div id="weare" class="page even section">
+            	  <!--start p1 content-->
+        <div class="content clearfix">
+        
+        	 <!--section title-->
+            <div class="section-title">
+          		 <h3>WE <span>ARE</span></h3>
+          		 <br/>
+          		             <h6><span>A bunch of believers on a mission to empower those who have the will to do something <strong class="darkGray">OUT OF THE ORDINARY</strong></span></h6>
+          		             <br/>
+          		             <ul class="socialSmall even">
+                <li><a class="facebook" title="Learn More" href="http://www.facebook.com/media/set/?set=a.361372230568744.78162.175348422504460&type=1&l=51c3ac971a" target="_blank"></a></li>
+            </ul>
+
+            </div>
+        </div>
+            </div>
+
+            
+
+            
+             
+              
+
+            
+     	</div>
+        <!--end p1 content-->
+        
+        <!--start teaser-->
+         <div id="teaser-1" class="teaser" style="background-image: url(images/gallery/hippies.jpg);">
+             
+             
+             
+             <div class="teaser-title">
+                            
+
+<h6><span>The </span><strong class="green">COUNTER-CULTURE</strong><span> Philosophy</span> <br/><br/><br/><br/>
+<span> WHAT WOULD YOU </span>CREATE <span>WITH A </span><strong class="purple">BOUNDLESS IMAGINATION</strong></h6>
+             </div>
+              <!--section-button-->
+               <div class="section-button">
+                    <a class="page-up navigateTo" href="#about"></a>     
+               </div>
+         </div>
+        <!--end teaser-->
+        
+     </div>
+	<!--end page 1--> 
+    
+    
+     <!--start page 2-->
+     <div id="medianet" class="page odd section">
+        
+        
+        <!--start p2 content-->
+        <div class="content clearfix">
+            
+            <!--section title-->
+            <div class="section-title">
+          		 <h3><span>PRESEED</span> MEDIA NETWORK</h3>
+                 <h6><span>OUR ONLINE CHANNELS</span></h6>
+            </div>
+            <!--end section title-->
+            
+            <!--start ajax content area-->
+            <div id="ajaxwrapper">
+                
+              <!--start project menu--> 
+              <div id="folio-navigation">
+                  <ul>
+                      <li id="prevProject"><a href="#"></a></li>
+                      <li id="closeProjectMobile"><a href="#"></a></li>
+                      <li id="nextProject"><a href="#"></a></li>
+                   </ul>  
+               </div>
+               <!--end project menu--> 
+                
+               <!--project-close-button-->
+               <div id="closeProject">
+               		<a href="#medianet"></a>               
+               </div>  
+                 
+               <!--start loader-->
+               <div id="loader"></div>
+                     
+               <!--start content-->
+               <div id="ajax-content-outer">
+               		<div id="ajax-content-inner"></div>
+               </div>
+               <!--end content-->
+          	 </div>
+    		<!--end ajax content area-->
+
+             
+   			 <!--start grid-->
+       		 <div id="folio-grid">
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="http://www.facebook.com/preseedify" target="_blank" title="Preseedify"><img class="lazy" src="images/gallery/preseedify.jpg" alt=""/></a> </div></div>
+               <div class="folio-thumb-container"><div class="folio-thumb"><a href="http://www.facebook.com/startupecosystem" target="_blank" title="Startup Ecosystem"><img class="lazy" src="images/gallery/ecosystem.jpg" alt=""/></a></div></div>
+              <div class="folio-thumb-container"> <div class="folio-thumb"><a href="http://www.facebook.com/startupposts" target="_blank" title="Startup Posts"><img class="lazy" src="images/gallery/posts.jpg" alt=""/></a></div></div>
+              <div class="folio-thumb-container"> <div class="folio-thumb "><a href="http://pinterest.com/thepreseed/" target="_blank" title="Preseed Sightings"><img class="lazy" src="images/gallery/sightings.jpg" alt=""/></a></div></div>
+              <div class="folio-thumb-container"> <div class="folio-thumb"><a href="http://thinkmachine.co" target="_blank" title="Think Machine"><img class="lazy" src="images/gallery/thinkmachine.jpg" alt=""/></a></div></div>
+               <div class="folio-thumb-container"> <div class="folio-thumb"><a href="http://quoteimpact.tumblr.com" target="_blank" title="Quote Impact"><img class="lazy" src="images/gallery/quotei.jpg" alt=""/></a></div></div>
+              <div class="folio-thumb-container"> <div class="folio-thumb"><a href="#!folio/project-7.html" title="Pure Attitude"><img class="lazy" src="images/gallery/project-thumb-7.jpg" alt=""/></a></div></div>
+              <div class="folio-thumb-container"> <div class="folio-thumb "><a href="#!folio/project-8.html" title="Superfly"><img class="lazy" src="images/gallery/project-thumb-8.jpg" alt=""/></a></div> </div>
+              <div class="folio-thumb-container"> <div class="folio-thumb "><a href="#!folio/project-9.html" title="Cuff Me"><img class="lazy" src="images/gallery/project-thumb-9.jpg" alt=""/></a></div></div>
+              <div class="folio-thumb-container"> <div class="folio-thumb "><a href="#!folio/project-10.html" title="Intimacy"><img class="lazy" src="images/gallery/project-thumb-10.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"> <div class="folio-thumb "><a href="#!folio/project-11.html" title="Type 69"><img class="lazy" src="images/gallery/project-thumb-11.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"> <div class="folio-thumb "><a href="#!folio/project-12.html" title="Enspire"><img class="lazy" src="images/gallery/project-thumb-12.jpg" alt=""/></a></div></div>
+   		  </div>
+   		  
+
+   	   </div>
+   	 
+       <!--end p2 content-->
+        
+        <!--start teaser-->
+      <!--
+  <div id="teaser-2" class="teaser" style="background-image: url(images/gallery/teaser-3.jpg);text-align:center;">
+            <div class="recent-clients">
+                 <div class="client-logos">
+                     <h6>RECENT <span>CLIENTS</span></h6>
+                     <a href="#"><img style="margin-right:20px;" src="images/logos/logo-7.png" alt=""/></a>
+                     <a href="#"><img style="margin-right:20px;" src="images/logos/logo-1.png" alt=""/></a>
+                     <a href="#"><img style="margin-right:20px;" src="images/logos/logo-2.png" alt=""/></a>
+                     <a href="#"><img style="margin-right:20px;" src="images/logos/logo-6.png" alt=""/></a>
+                     <a href="#"><img style="margin-right:20px;" src="images/logos/logo-4.png" alt=""/></a>
+                     <a href="#"><img style="margin-right:20px;" src="images/logos/logo-5.png" alt=""/></a>
+                 </div>
+             </div>
+              
+          </div>
+-->
+         <!--end teaser-->
+        
+     </div>
+	<!--end page 2--> 
+    
+   
+    
+     <!--start page 3-->
+     <div id="contact" class="page odd section">
+        
+        <!--start p3 content-->
+        <div class="content clearfix">
+        
+        	<!--section title-->
+            <div class="section-title">
+          		 <h3>CONTACT <span>US</span></h3>
+                 <h5><span>LET'S</span> HAVE <span>A</span> DISCUSSION</h5>
+            </div>
+      		<!--end section title-->  
+               
+            <div class="column_one_third contact">
+          		<div class="round-thumb-container">
+                    <div class="round-thumb">
+                        <a class="media" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=New+York,+NY,+USA&amp;aq=0&amp;oq=new&amp;sll=37.09024,-95.712891&amp;sspn=31.977057,71.982422&amp;ie=UTF8&amp;hq=&amp;hnear=New+York&amp;t=m&amp;z=10&amp;ll=40.714353,-74.005973&amp;output=embed" rel="map" title="google map">
+                         <img class="lazy" src="images/gallery/map.jpg" alt=""/>
+                         </a>               
+                    </div>
+                </div>
+     
+               
+              <p><strong>tel:</strong> +123 456 789 <br/><strong>mail:</strong> <a href="mailto:info@udfrance.com">info@ego.com</a><br/><strong>skype:</strong>Egostudio 767<br/> <br/>Fifth Ave. New York, NY 10153<br/><strong>contact person:</strong> John Adams <br/>  <a class="media" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=New+York,+NY,+USA&amp;aq=0&amp;oq=new&amp;sll=37.09024,-95.712891&amp;sspn=31.977057,71.982422&amp;ie=UTF8&amp;hq=&amp;hnear=New+York&amp;t=m&amp;z=10&amp;ll=40.714353,-74.005973&amp;output=embed">Google Map</a></p>
+            </div>
+            
+            <div class="column_two_thirds last">
+            <h4>Drop <span>a</span> line</h4>
+                  <form action="http://demo.udfrance.com/ego/html/variation/php/contact.php" method="post" class="contactForm form" id="contact-form">
+                      <p><input type="text" name="name" class="required" id="name" value="Your Name" /></p>
+                      <p><input type="text" name="email" class="required" id="email" value="E-mail" /></p>
+                      <p><input type="text" name="subject" id="subject" value="Subject" /></p>
+                      <textarea  class="required" name="message" id="message" rows="" cols="">Message</textarea>
+                     <input type="submit" value="SEND" class="submit submitTheme" id="submitform" />
+					 <span id="msg">* = required field</span>
+                 </form>
+          </div>
+   	   </div>
+        <!--end p3 content-->
+        
+        
+        <!--start teaser-->
+         <div id="teaser-3" class="teaser" style="background-image: url(images/gallery/teaser-4.jpg);">
+             <div class="teaser-title">
+                 <h6>VISIT <span>OUR</span> OFFICES <span>IN </span> NEW<span> YORK</span> &amp; <span>SAN</span> FRANCISCO</h6>
+             </div>
+             <!--section-button-->
+              <div class="section-button">
+                    <a class="page-up navigateTo" href="#contact"></a>           
+               </div>
+         </div>
+        <!--end teaser-->
+        
+     </div>
+	<!--end page 3--> 
+    
+    
+    <!--start footer-->
+    <div id="footer" class="even">
+    	<div class="content">
+        	<!--social networks-->
+            <ul class="socialSmall even">
+            	
+            	  <li><a class="facebook" href="http://www.facebook.com/thepreseed"></a></li>
+            	  <li><a class="twitter" href="http://twitter.com/thepreseed" target="_blank"></a></li>
+<!--
+            	  <li><a class="pinterest" href="http://pinterest.com/thepreseed/" target="_blank"></a></li>
+                <li><a class="skype" href="#"></a></li>
+                <li><a class="forrst" href="#"></a></li>
+                <li><a class="googleplus" href="#"></a></li>
+                <li><a class="flickr" href="#"></a></li>
+                <li><a class="myspace" href="#"></a></li>
+                <li><a class="vimeo" href="#"></a></li>
+                <li><a class="dribbble" href="#"></a></li>
+                <li><a class="linkedin" href="#"></a></li>
+-->
+            </ul>
+        	<div class="logo">
+            	<a class="navigateTo" href="#homepage"><img src="images/logo-common.png" alt="ego"/></a>
+            </div>
+            <p class="copyright">&copy; Ego Studio.2012. <br/>All rights reserved. Theme by <a href="http://udthemes.com/" title="Premium WordPress Themes - UDTHEMES">UDTHEMES</a>.</p>
+        </div>
+    </div>
+    <!--end footer-->
+
+</div>        
+<!--end wrapper-->   
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-360650-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
