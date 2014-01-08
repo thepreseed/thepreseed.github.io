@@ -255,7 +255,7 @@
 	
 		}
 		.ar3{
-		background-image:url('../images/gallery/sightings.jpg'); !important
+		background-image:url('../images/gallery/quotei.jpg'); !important
 		background-position:center;
 		}
 		.ar3:hover{
@@ -299,6 +299,18 @@
 		
 		}
 		.ar7:hover{
+		background-image:url('../images/gallery/tum.png') !important;
+		background-position:center;
+	
+		
+		}
+		.ar8{
+		background-image:url('../images/gallery/sightings.jpg'); !important
+		background-position:center;
+		
+		
+		}
+		.ar8:hover{
 		background-image:url('../images/gallery/pint.png') !important;
 		background-position:center;
 	
