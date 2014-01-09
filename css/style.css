@@ -230,7 +230,6 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		.ar{
 		background-image:url('../images/gallery/preseedify.jpg');
 		background-position:center;
-<<<<<<< HEAD
 		transition: background-image 0.8s;
 -webkit-transition: background-image 0.8s;
 
@@ -240,22 +239,10 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		background-image:url('../images/gallery/fb.png');
 		
 			
-=======
-		
-		
-		}
-		.ar:hover{
-		background-image:url('../images/gallery/fb.png');
-		
-		
-	background-position:center;
-	
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 	
 		}
 		.ar1{
 		background-image:url('../images/gallery/posts.jpg'); !important
-<<<<<<< HEAD
 		 transition: background-image 0.8s ;
 -webkit-transition: background-image 0.8s ;
 		background-position:center;
@@ -263,25 +250,14 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		}
 		.ar1:hover{
 		background-image:url('../images/gallery/fb.png') !important;
-=======
-		 
-		}
-		.ar1:hover{
-		background-image:url('../images/gallery/fb.png') !important;
-		background-position:center;
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 
 		}
 		.ar2{
 		background-image:url('../images/gallery/nisc.jpg'); !important
 		background-position:center;
-<<<<<<< HEAD
 		transition: background-image 0.3s;
 -webkit-transition: background-image 0.8s;
 
-=======
-		
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		}
 		.ar2:hover{
 		background-image:url('../images/gallery/med.png') !important;
@@ -290,7 +266,6 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		.ar3{
 		background-image:url('../images/gallery/quotei.jpg'); !important
 		background-position:center;
-<<<<<<< HEAD
 		transition: background-image 0.8s;
 -webkit-transition: background-image 0.8s;
 
@@ -307,81 +282,42 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		}
 		.ar4:hover{
 		background-image:url('../images/gallery/kipt.png') !important;
-=======
-		}
-		.ar3:hover{
-		background-image:url('../images/gallery/tum.png') !important;
-		background-position:center;
-		
-		}
-		.ar4{
-		background-image:url('../images/gallery/kippt.jpg'); !important
-		
-		}
-		.ar4:hover{
-		background-image:url('../images/gallery/kipt.png') !important;
-		background-position:center;
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		 
 		}
 		.ar5{
 		background-image:url('../images/gallery/nic.jpg'); !important
 		background-position:center;
-<<<<<<< HEAD
 		transition: background-image 0.8s;
 -webkit-transition: background-image 0.8s;
 
 		}
 		.ar5:hover{
 		background-image:url('../images/gallery/read.png') !important;
-=======
-		
-		}
-		.ar5:hover{
-		background-image:url('../images/gallery/read.png') !important;
-		background-position:center;
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 
 		}
 		.ar6{
 		background-image:url('../images/gallery/re.png'); !important
 			background-position:center;
-<<<<<<< HEAD
 		 transition: background-image 0.8s;
 -webkit-transition: background-image 0.8s;
 
 		}
 		.ar6:hover{
 		background-image:url('../images/gallery/tumblr.png') !important;
-=======
-		 
-		}
-		.ar6:hover{
-		background-image:url('../images/gallery/tum.png') !important;
-			background-position:center;
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 			 
 		}
 		.ar7{
 		background-image:url('../images/gallery/nu.png'); !important
 		background-position:center;
-<<<<<<< HEAD
 		opacity:0.6;
 		
 		
 		}
 		/*.ar7:hover{
-=======
-		
-		
-		}
-		.ar7:hover{
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		background-image:url('../images/gallery/tum.png') !important;
 		background-position:center;
 	
 		
-<<<<<<< HEAD
 		}*/
 		.ar8{
 		background-image:url('../images/gallery/sightings.jpg'); !important
@@ -389,21 +325,10 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		transition: background-image 0.8s;
        -webkit-transition: background-image 0.8s;
 
-=======
-		}
-		.ar8{
-		background-image:url('../images/gallery/sightings.jpg'); !important
-		background-position:center;
-		
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		
 		}
 		.ar8:hover{
 		background-image:url('../images/gallery/pint.png') !important;
-<<<<<<< HEAD
-=======
-		background-position:center;
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 	
 		
 		}
@@ -699,11 +624,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	.a1{
 		background-image:url('../images/gallery/ec.jpg'); !important
 		background-position:center;
-<<<<<<< HEAD
 		transition:background-image 0.8s;
 		-webkit-transition:background-image 0.8s;
-=======
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		
 		
 		}
@@ -716,12 +638,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		.a2{
 		background-image:url('../ver1/images/gallery/weba.jpg'); !important
 		background-position:center;
-<<<<<<< HEAD
 		transition:background-image 0.8s;
 		-webkit-transition:background-image 0.8s;
-=======
-		
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		
 		}
 		.a2:hover{
@@ -733,20 +651,13 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		.a3{
 		background-image:url('../images/gallery/sessions.jpg'); !important
 		background-position:center;
-<<<<<<< HEAD
 		transition:background-image 0.8s;
 		-webkit-transition:background-image 0.8s;
-=======
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		
 		
 		}
 		.a3:hover{
-<<<<<<< HEAD
 		background-image:url('../ver1/images/gallery/any.png') !important;
-=======
-		background-image:url('../ver1/images/gallery/any.jpg') !important;
->>>>>>> 0df000bfd2d76ad8d7774713adacb6832a217b89
 		background-position:center;
 	
 		
