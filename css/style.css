@@ -222,7 +222,7 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		.folio-thumb.active{border:5px solid rgba(255,39,120,0.9);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9)!important;-moz-box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9)!important;box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9) !important;}
 		.folio-thumb a{width:100%;float:left;}
 		.folio-thumb.last{margin-right:0;}
-		.folio-thumb, .folio-thumb a, .folio-thumb a img,.folio-thumb a .folio-thumb-rollover {-webkit-border-radius: 200px; -moz-border-radius: 200px; border-radius:200px; overflow:hidden;width:200px;height:200px;}
+		.folio-thumb, .folio-thumb a, .folio-thumb a img,.folio-thumb a .folio-thumb-rollover {-webkit-border-radius: 200px; -moz-border-radius: 200px; border-radius:200px; overflow:hidden;}
 		.folio-thumb a img{position:relative;z-index:-1;max-width: 100%;margin: 0 auto;-ms-interpolation-mode: bicubic;overflow:hidden;vertical-align: baseline;}
 		.folio-thumb a .folio-thumb-rollover{position:absolute;display:table;width:100%;height:100%;top:0;opacity:0; }
 		.folio-thumb a .folio-thumb-rollover .thumbInfo{display: table-cell; vertical-align: middle;width:100%;font: 18px 'Open Sans', sans-serif; font-weight:bold;color:#fff; text-align:center;}
