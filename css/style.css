@@ -227,6 +227,21 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		.folio-thumb a .folio-thumb-rollover{position:absolute;display:table;width:100%;height:100%;top:0;opacity:0; }
 		.folio-thumb a .folio-thumb-rollover .thumbInfo{display: table-cell; vertical-align: middle;width:100%;font: 18px 'Open Sans', sans-serif; font-weight:bold;color:#fff; text-align:center;}
 		/*new div*/
+		.hov {
+		background-image:url('../images/gallery/me6.png');
+		background-repeat:no-repeat;
+		margin-left:6px;
+		margin-right:6px;
+		margin-top:-0.2%;
+		background-position:center;
+		}
+		.hov:hover {
+		background-image:url('../images/gallery/me5.png');
+		background-repeat:no-repeat;
+		
+		
+		}
+			
 		.ar{
 		background-image:url('../images/gallery/preseedify.jpg');
 		background-position:center;
