@@ -227,6 +227,7 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		.folio-thumb a .folio-thumb-rollover{position:absolute;display:table;width:100%;height:100%;top:0;opacity:0; }
 		.folio-thumb a .folio-thumb-rollover .thumbInfo{display: table-cell; vertical-align: middle;width:100%;font: 18px 'Open Sans', sans-serif; font-weight:bold;color:#fff; text-align:center;}
 		/*new div*/
+	
 		.hov {
 		background-image:url('../images/gallery/me6.png');
 		background-repeat:no-repeat;
@@ -1066,17 +1067,17 @@ input[type="button"].btn-block {
 .btn-success {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #5bb75b;
-  *background-color: #51a351;
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-color: rgb(255,0,90);
+  *background-color:rgb(255,0,90);
+  background-image: -moz-linear-gradient(top, rgb(255,0,90), rgb(255,0,90));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(ff005a), to(ff005a));
+  background-image: -webkit-linear-gradient(top, #ff005a, #ff005a);
+  background-image: -o-linear-gradient(top, #ff005a, #ff005a);
+  background-image: linear-gradient(to bottom, #ff005a, #ff005a);
   background-repeat: repeat-x;
-  border-color: #51a351 #51a351 #387038;
+  border-color: #ff005a #ff005a #ff005a;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff005a', endColorstr='#ffff005a', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 .btn-succes,
@@ -1122,8 +1123,8 @@ input[type="button"].btn-block {
 .btn-success.disabled,
 .btn-success[disabled] {
   color: #ffffff;
-  background-color: #51a351;
-  *background-color: #499249;
+  background-color: #ff005a;
+  *background-color: #ff005a;
 }
 
 .btn-success:active,
