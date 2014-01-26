@@ -280,7 +280,7 @@ src: url('../fonts/Braxton.otf') format('opentype');
 	
 		}
 		.ar3{
-		background-image:url('../images/gallery/quotei.jpg'); !important
+		background-image:url('../images/gallery/fcuk.png'); !important
 		background-position:center;
 		transition: background-image 0.8s;
 -webkit-transition: background-image 0.8s;
@@ -357,6 +357,17 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		}
 		.ar9:hover{
 		background-image:url('../images/gallery/sound.png') !important;
+		}
+		.ar10{
+		background-image:url('../images/gallery/geek.png'); !important
+		background-position:center;
+			transition: background-image 0.8s;
+       -webkit-transition: background-image 0.8s;
+
+		
+		}
+		.ar10:hover{
+		background-image:url('../images/gallery/tumblr.png') !important;
 		}
 		
 		/*end*/
