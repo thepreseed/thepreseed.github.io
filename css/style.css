@@ -366,6 +366,17 @@ src: url('../fonts/Braxton.otf') format('opentype');
 
 		
 		}
+		.ar11:hover{
+		background-image:url('../images/gallery/tedtalk.png') !important;
+		}
+			.ar11{
+		background-image:url('../images/gallery/teda.png'); !important
+		background-position:center;
+			transition: background-image 0.8s;
+       -webkit-transition: background-image 0.8s;
+
+		
+		}
 		.ar10:hover{
 		background-image:url('../images/gallery/tumblr.png') !important;
 		}
