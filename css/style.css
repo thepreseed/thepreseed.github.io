@@ -380,6 +380,17 @@ src: url('../fonts/Braxton.otf') format('opentype');
 		.ar10:hover{
 		background-image:url('../images/gallery/tumblr.png') !important;
 		}
+			.ar12:hover{
+		background-image:url('../images/gallery/tumblr.png') !important;
+		}
+			.ar12{
+		background-image:url('../images/gallery/geek.png'); !important
+		background-position:center;
+			transition: background-image 0.8s;
+       -webkit-transition: background-image 0.8s;
+
+		
+		}
 		
 		/*end*/
 
@@ -705,7 +716,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		
 		}
 		.a3:hover{
-		background-image:url('../ver1/images/gallery/any.png') !important;
+		background-image:url('../images/gallery/any1.png') !important;
 		background-position:center;
 	
 		
